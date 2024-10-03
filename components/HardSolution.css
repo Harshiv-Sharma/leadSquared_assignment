@@ -1,0 +1,46 @@
+/* Single-column layout for the hard solution */
+.cat-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  /* Style for individual cards */
+  .cat-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+  
+  /* Hover effect for the cards */
+  .cat-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styling inside the card */
+  .cat-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Optional content inside the card */
+  .cat-card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Loader div styling */
+  .loader {
+    text-align: center;
+    margin: 20px;
+  }
+  
